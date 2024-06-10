@@ -21,7 +21,6 @@ class ContentViewModel: ObservableObject {
             }
         cancellable = publisher.assign(to: \.value, on: self)
     }
-    
 }
 
 struct ContentView: View {
